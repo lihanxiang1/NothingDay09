@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="商品列表"
+        android:gravity="center"/>
+    <View
+        android:id="@+id/view"
+        android:layout_below="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#000000"/>
+
+    <myhub.a02.view.XListView
+        android:id="@+id/XListView"
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </myhub.a02.view.XListView>
+
+
+</RelativeLayout>

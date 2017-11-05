@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GroupView">
+        <attr name="oneColor" format="color" />
+        <attr name="twocolor" format="color" />
+        <attr name="mHeight" format="dimension" />
+        <attr name="threeColor" format="color" />
+    </declare-styleable>
+</resources>

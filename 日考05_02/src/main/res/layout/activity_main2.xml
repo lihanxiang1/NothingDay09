@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="lianxi.a05_02.Main2Activity">
+
+    <lianxi.a05_02.view.TitleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <lianxi.a05_02.view.GroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mHeight="50dp"
+        app:oneColor="#619ea0"
+        app:threeColor="#9fa061"
+        app:twocolor="#7561a0" />
+
+</LinearLayout>
